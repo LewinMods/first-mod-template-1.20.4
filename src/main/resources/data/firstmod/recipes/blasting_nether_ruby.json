@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 80,
+  "experience": 0.4,
+  "group": "ruby",
+  "ingredient": {
+    "item": "firstmod:nether_ruby_ore"
+  },
+  "result": "firstmod:ruby"
+}
