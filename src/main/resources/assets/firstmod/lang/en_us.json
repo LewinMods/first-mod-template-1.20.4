@@ -1,6 +1,7 @@
 {
   "item.firstmod.ruby": "Ruby",
-  //"item.firstmod.ruby_block": "Ruby Block",
+  "item.firstmod.ruby_detector": "Ruby Detector",
+
 
   "block.firstmod.ruby_block": "Block of Ruby",
   "block.firstmod.ruby_ore": "Ruby Ore",
@@ -8,6 +9,8 @@
   "block.firstmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.firstmod.nether_ruby_ore": "Nether Ruby Ore",
   "block.firstmod.end_ruby_ore": "End Ruby Ore",
+
+  "block.firstmod.sound_block": "Sound Block",
 
   "itemgroup.ruby": "Ruby Group"
 }

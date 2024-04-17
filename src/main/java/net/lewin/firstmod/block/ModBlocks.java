@@ -3,6 +3,7 @@ package net.lewin.firstmod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.lewin.firstmod.FirstMod;
+import net.lewin.firstmod.block.custom.SoundBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -24,6 +25,8 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), FabricBlockSettings.copyOf(Blocks.NETHERRACK).strength(1.5f)));
     public static final Block END_RUBY_ORE = registerBlock("end_ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 7), FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
